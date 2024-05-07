@@ -1,0 +1,40 @@
+{
+  "rates": [
+    {
+      "end": "MONDAY 17:00",
+      "price": 1500.0,
+      "start": "MONDAY 15:00",
+      "timezone": "UTC"
+    },
+    {
+      "end": "SATURDAY 01:00",
+      "price": 2000.0,
+      "start": "FRIDAY 13:00",
+      "timezone": "UTC"
+    },
+    {
+      "end": "SUNDAY 01:00",
+      "price": 2000.0,
+      "start": "SATURDAY 13:00",
+      "timezone": "UTC"
+    },
+    {
+      "end": "MONDAY 01:00",
+      "price": 2000.0,
+      "start": "SUNDAY 13:00",
+      "timezone": "UTC"
+    },
+    {
+      "end": "WEDNESDAY 08:00",
+      "price": 1750.0,
+      "start": "WEDNESDAY 06:00",
+      "timezone": "UTC"
+    },
+    {
+      "end": "WEDNESDAY 12:00",
+      "price": 1750.0,
+      "start": "WEDNESDAY 10:00",
+      "timezone": "UTC"
+    }
+  ]
+}

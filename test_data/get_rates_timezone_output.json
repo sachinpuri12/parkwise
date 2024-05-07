@@ -1,0 +1,40 @@
+{
+  "rates": [
+    {
+      "end": "MONDAY 12:00",
+      "price": 1500.0,
+      "start": "MONDAY 10:00",
+      "timezone": "America/Chicago"
+    },
+    {
+      "end": "FRIDAY 20:00",
+      "price": 2000.0,
+      "start": "FRIDAY 08:00",
+      "timezone": "America/Chicago"
+    },
+    {
+      "end": "SATURDAY 20:00",
+      "price": 2000.0,
+      "start": "SATURDAY 08:00",
+      "timezone": "America/Chicago"
+    },
+    {
+      "end": "SUNDAY 20:00",
+      "price": 2000.0,
+      "start": "SUNDAY 08:00",
+      "timezone": "America/Chicago"
+    },
+    {
+      "end": "WEDNESDAY 03:00",
+      "price": 1750.0,
+      "start": "WEDNESDAY 01:00",
+      "timezone": "America/Chicago"
+    },
+    {
+      "end": "WEDNESDAY 07:00",
+      "price": 1750.0,
+      "start": "WEDNESDAY 05:00",
+      "timezone": "America/Chicago"
+    }
+  ]
+}

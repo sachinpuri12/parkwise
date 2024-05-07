@@ -1,0 +1,26 @@
+{
+  "rates": [
+    {
+      "days": "mon",
+      "times": "1000-1200",
+      "tz": "America/Chicago",
+      "price": 1500
+    },
+    {
+      "days": "fri,sat,sun",
+      "times": "0900-2100",
+      "tz": "America/New_York",
+      "price": 2000
+    },
+    {
+      "days": "wed",
+      "times": "0600-0800",
+      "price": 1750
+    },
+    {
+      "days": "wed",
+      "times": "1000-1200",
+      "price": 1750
+    }
+  ]
+}
