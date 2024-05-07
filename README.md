@@ -210,7 +210,7 @@ Calculate price for a given time range.
 #### Request
 
 ```bash
-curl -X GET "http://localhost:5000/price?start=2024-05-01T10:00:00Z&end=2024-05-01T15:00:00Z"
+curl -X GET "http://localhost:5000/price?start=2024-05-01T10:00:00+05:00&end=2024-05-01T15:00:00+05:00"
 ```
 
 #### Response
