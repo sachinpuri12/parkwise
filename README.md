@@ -80,77 +80,6 @@ A rate is comprised of `days`, `times`, `tz` (timezone), and `price`. If no `tz`
 {
   "rates": [
     {
-      "end": "MONDAY 21:00",
-      "price": 10.5,
-      "start": "MONDAY 09:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "TUESDAY 21:00",
-      "price": 10.5,
-      "start": "TUESDAY 09:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "WEDNESDAY 21:00",
-      "price": 10.5,
-      "start": "WEDNESDAY 09:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "THURSDAY 21:00",
-      "price": 10.5,
-      "start": "THURSDAY 09:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "FRIDAY 21:00",
-      "price": 10.5,
-      "start": "FRIDAY 10:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "SATURDAY 19:00",
-      "price": 12.75,
-      "start": "SATURDAY 10:00",
-      "timezone": "America/New_York"
-    },
-    {
-      "end": "SUNDAY 19:00",
-      "price": 12.75,
-      "start": "SUNDAY 10:00",
-      "timezone": "America/New_York"
-    }
-  ]
-}
-```
-
-### `GET /rates`
-
-#### Description
-
-Retrieve parking rates.
-
-#### Parameters
-
-- `timezone` (optional): Timezone to format the rates. Default is "UTC".
-
-#### Response
-
-- `200 OK`: Returns a JSON object with consolidated parking rates.
-
-#### Request
-
-```bash
-curl -X GET "http://localhost:5000/rates?timezone=America/New_York"
-```
-
-#### Response Output
-
-```json
-{
-  "rates": [
-    {
       "end": "TUESDAY 01:00",
       "price": 10.5,
       "start": "MONDAY 13:00",
@@ -191,6 +120,77 @@ curl -X GET "http://localhost:5000/rates?timezone=America/New_York"
       "price": 12.75,
       "start": "SUNDAY 14:00",
       "timezone": "UTC"
+    }
+  ]
+}
+```
+
+### `GET /rates`
+
+#### Description
+
+Retrieve parking rates.
+
+#### Parameters
+
+- `timezone` (optional): Timezone to format the rates. Default is "UTC".
+
+#### Response
+
+- `200 OK`: Returns a JSON object with consolidated parking rates.
+
+#### Request
+
+```bash
+curl -X GET "http://localhost:5000/rates?timezone=America/New_York"
+```
+
+#### Response Output
+
+```json
+{
+  "rates": [
+    {
+      "end": "MONDAY 21:00",
+      "price": 10.5,
+      "start": "MONDAY 09:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "TUESDAY 21:00",
+      "price": 10.5,
+      "start": "TUESDAY 09:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "WEDNESDAY 21:00",
+      "price": 10.5,
+      "start": "WEDNESDAY 09:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "THURSDAY 21:00",
+      "price": 10.5,
+      "start": "THURSDAY 09:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "FRIDAY 21:00",
+      "price": 10.5,
+      "start": "FRIDAY 10:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "SATURDAY 19:00",
+      "price": 12.75,
+      "start": "SATURDAY 10:00",
+      "timezone": "America/New_York"
+    },
+    {
+      "end": "SUNDAY 19:00",
+      "price": 12.75,
+      "start": "SUNDAY 10:00",
+      "timezone": "America/New_York"
     }
   ]
 }
